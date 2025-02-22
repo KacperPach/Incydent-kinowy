@@ -2,7 +2,7 @@
 title: 'Dodawanie recenzji'
 description: 'Krótki opis dodawania recenzji'
 pubDate: '2025.02.22'
-heroImage: '/public/posty.png'
+heroImage: '/posty.png'
 ---
 
 ## Jak dodać nowy post w Astro?  
