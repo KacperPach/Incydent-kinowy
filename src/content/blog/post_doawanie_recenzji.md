@@ -5,7 +5,7 @@ pubDate: '2025.02.22'
 heroImage: '/posty.png'
 ---
 
-## Jak dodać nowy post w Astro?  
+## Jak dodać nowy post w Astro? (test) 
 
 1. **Przejdź do folderu postów**  
    W projekcie Astro otwórz folder `src/content/blog/`
