@@ -8,7 +8,7 @@ import { YouTube } from "astro-embed";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage, trailerLink } =
+const { title, description, pubDate, updatedDate, heroImage, trailerLink, fesitvals } =
   Astro.props;
 ---
 
@@ -83,6 +83,9 @@ const { title, description, pubDate, updatedDate, heroImage, trailerLink } =
             <hr />
           </div>
           <slot />
+          <div>
+            {fesitvals}
+          </div>
           <div>
             {
               typeof trailerLink !== "undefined" && (

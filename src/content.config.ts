@@ -1,5 +1,6 @@
 import { glob } from 'astro/loaders';
 import { defineCollection, z } from 'astro:content';
+import { FESTIVAL_NAMES } from './consts';
 
 const blog = defineCollection({
 	// Load Markdown and MDX files in the `src/content/blog/` directory.
@@ -13,6 +14,7 @@ const blog = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
 		trailerLink: z.string().optional(),
+		fesitvals: z.array(z.enum(FESTIVAL_NAMES)).optional(),
 	}),
 });
 

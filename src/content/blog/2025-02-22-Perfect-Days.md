@@ -5,6 +5,7 @@ description: "Recenzja Perfect Days"
 pubDate: "2025-02-22"
 heroImage: '/perfect_days.jpg'
 trailerLink: "https://www.youtube.com/watch?v=QzZBbX5A1FA"
+fesitvals: ['Festiwal ośmiornicy 🐙', 'festiwal orła 🦅']
 ---
 
 _“Next time is next time, now is now”_
