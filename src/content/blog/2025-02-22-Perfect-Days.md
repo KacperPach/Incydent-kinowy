@@ -3,7 +3,7 @@
 title: "Perfect Days"
 description: "Recenzja Perfect Days"
 pubDate: "2025-02-22"
-heroImage: 'perfect_days.jpg'
+heroImage: '/perfect_days.jpg'
 ---
 
 _“Next time is next time, now is now”_
