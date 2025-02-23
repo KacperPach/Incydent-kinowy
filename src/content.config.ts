@@ -14,7 +14,7 @@ const blog = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 		heroImage: z.string().optional(),
 		trailerLink: z.string().optional(),
-		fesitvals: z.array(z.enum(FESTIVAL_NAMES)).optional(),
+		fesitvals: z.array(FESTIVAL_NAMES).optional(),
 	}),
 });
 
