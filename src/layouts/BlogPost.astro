@@ -9,8 +9,15 @@ import { YouTube } from "astro-embed";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage, trailerLink, fesitvals } =
-  Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  trailerLink,
+  fesitvals,
+} = Astro.props;
 ---
 
 <html lang="en">
@@ -81,7 +88,7 @@ const { title, description, pubDate, updatedDate, heroImage, trailerLink, fesitv
               }
             </div>
             <h1>{title}</h1>
-            <TagList tags={fesitvals}/>
+            <TagList tags={fesitvals} />
             <hr />
           </div>
           <slot />
