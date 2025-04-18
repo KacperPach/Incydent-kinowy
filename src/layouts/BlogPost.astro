@@ -68,7 +68,7 @@ const { title, description, pubDate, updatedDate, heroImage, trailerLink, fesitv
             )
           }
         </div>
-        <div class="prose">
+        <div class="prose" data-pagefind-body>
           <div class="title">
             <div class="date">
               <FormattedDate date={pubDate} />
@@ -85,7 +85,7 @@ const { title, description, pubDate, updatedDate, heroImage, trailerLink, fesitv
             <hr />
           </div>
           <slot />
-          <div>
+          <div data-pagefind-ignore>
             {
               typeof trailerLink !== "undefined" && (
                 <YouTube id={trailerLink} poster={heroImage} />
