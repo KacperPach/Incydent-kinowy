@@ -9,19 +9,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
-    <script src="/pagefind/pagefind-ui.js" is:inline></script>
   </head>
   <body>
     <Header />
     <main>
-      <div id="search"></div>
-      <script>
-        window.addEventListener("DOMContentLoaded", (event) => {
-          //@ts-ignore
-          new PagefindUI({ element: "#search", showSubResults: true });
-        });
-      </script>
       <h1>O nas!</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo

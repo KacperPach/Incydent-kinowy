@@ -84,10 +84,20 @@ const posts = (await getCollection("blog")).sort(
         }
       }
     </style>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <script src="/pagefind/pagefind-ui.js" is:inline></script>
   </head>
   <body>
     <Header />
+    <div id="search"></div>
+    <script>
+      window.addEventListener("DOMContentLoaded", (event) => {
+        //@ts-ignore
+        new PagefindUI({ element: "#search", showSubResults: true });
+      });
+    </script>
     <main>
+      <div id="search"></div>
       <section>
         <ul>
           {
